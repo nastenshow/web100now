@@ -26,11 +26,11 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Server::create([
-            'server_id' => strtolower('CIPISERVERID'),
+            'server_id' => strtolower('WEB100NOWSERVERID'),
             'name' => 'This VPS!',
-            'ip' => 'CIPIIP',
-            'password' => strtolower('CIPIPASS'),
-            'database' => strtolower('CIPIDB'),
+            'ip' => 'WEB100NOWIP',
+            'password' => strtolower('WEB100NOWPASS'),
+            'database' => strtolower('WEB100NOWDB'),
             'default' => 1,
             'cron' => ' '
         ]);
